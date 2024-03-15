@@ -1,6 +1,6 @@
 const { Server } = require("socket.io");
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 80;
 
 console.log(`Server running on port ${port}`);
 
