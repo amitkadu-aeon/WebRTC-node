@@ -2,6 +2,8 @@ const { Server } = require("socket.io");
 
 const port = process.env.PORT || 8000;
 
+console.log(`Server running on port ${port}`);
+
 const io = new Server(port, {
   cors: true,
 });
